@@ -23,12 +23,12 @@ vecDistance     :: (Floating a) => v a -> v a -> a
 3. The file includes a function named **vecF** of type *(Floating a, VectorSpace v) => v a -> [v a] -> [a]* such that **vecF x y** equals a list whose i*th* entry is the distance between **x** and the i*th* entry of the list **y**. 
 ### Testing
 A test plan is included in the file for **vecScalarProd**, **vecSum**, **vecMagnitude**, and **vecF**. The test plan includes at least three test cases for each function. 
-Each test case has the following form:
-&ensp;&ensp;**Function**: Name of the function being tested.
-&ensp;&ensp;**Test Case Number**: The number of the test case.
-&ensp;&ensp;**Input**: Inputs for the function
-&ensp;&ensp;**Expected Output**: Expected output for the function.
-&ensp;&ensp;**Actual Output**: Actual output for the function.
+Each test case has the following form: <br/>
+&ensp;&ensp;**Function**: Name of the function being tested.<br/>
+&ensp;&ensp;**Test Case Number**: The number of the test case.<br/>
+&ensp;&ensp;**Input**: Inputs for the function.<br/>
+&ensp;&ensp;**Expected Output**: Expected output for the function.<br/>
+&ensp;&ensp;**Actual Output**: Actual output for the function.<br/>
 #### Author
 Michael Balas
 
