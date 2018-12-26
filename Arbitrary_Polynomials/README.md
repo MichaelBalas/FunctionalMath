@@ -40,13 +40,13 @@ such that **polyDeriv p** returns the list *[a₀, a₁, ..., am]* where  <br />
 &ensp;&ensp;![equation](https://latex.codecogs.com/gif.latex?a_0%20&plus;%20a_1*x%5E1%20&plus;%20a_2*x%5E2%20&plus;%20%5Ccdots%20&plus;%20a_m*x%5Em)  <br />
 is the standard form of **p**. **polyAsList p** thus transforms a polynomial *p* into standard form. 
 ### Testing
-A test plan is included in the file for **polyValue**, **polyDegree**, **polyDeriv**, **polyNewton** and **polyAsList**. The test plan includes at least three test cases for each function. 
-Each test case has the following form:
-&ensp;&ensp;**Function**: Name of the function being tested.
-&ensp;&ensp;**Test Case Number**: The number of the test case.
-&ensp;&ensp;**Input**: Inputs for the function
-&ensp;&ensp;**Expected Output**: Expected output for the function.
-&ensp;&ensp;**Actual Output**: Actual output for the function.
+A test plan is included in the file for **polyValue**, **polyDegree**, **polyDeriv**, **polyNewton** and **polyAsList**. The test plan includes at least three test cases for each function.<br /> 
+Each test case has the following form:<br />
+&ensp;&ensp;**Function**: Name of the function being tested.<br />
+&ensp;&ensp;**Test Case Number**: The number of the test case.<br />
+&ensp;&ensp;**Input**: Inputs for the function.<br />
+&ensp;&ensp;**Expected Output**: Expected output for the function.<br />
+&ensp;&ensp;**Actual Output**: Actual output for the function.<br />
 #### Author
 Michael Balas
 
