@@ -20,7 +20,7 @@ vecDifference   :: (Num a) => v a -> v a -> v a
 vecDistance     :: (Floating a) => v a -> v a -> a
 ```
 2. The file includes instance statements that define **Vector2**, **Vector3**, and **Vector4** to be instances of the type class **VectorSpace**. 
-3. The file includes a function named **vecF** of type *(Floating a, VectorSpace v) => v a -> [v a] -> [a]* such that **vecF x y** equals a list whose i*th* entry is the distance between **x** and the i*th* entry of the list **y**. 
+3. The file includes a function named **vecF** of type ```(Floating a, VectorSpace v) => v a -> [v a] -> [a]``` such that **vecF x y** equals a list whose i*th* entry is the distance between **x** and the i*th* entry of the list **y**. 
 ### Testing
 A test plan is included in the file for **vecScalarProd**, **vecSum**, **vecMagnitude**, and **vecF**. The test plan includes at least three test cases for each function. 
 Each test case has the following form: <br/>

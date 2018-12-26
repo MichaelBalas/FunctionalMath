@@ -22,9 +22,9 @@ where: <br />
 &ensp;&ensp;![equation](https://latex.codecogs.com/gif.latex?T%20%3D%20%5Csqrt%5B3%5D%7BR%20-%20%5Csqrt%7BQ%5E3%20&plus;%20R%5E2%7D%7D) <br />
 *x₁* is always a real number. If *Q³ + R² < 0*, the three solutions are distinct real numbers; if *Q³ + R² = 0*, the three solutions are real numbers and at least two are equal; and if *Q³ + R² > 0*, the three solutions are one real number and two non-real complex numbers.
 ### Implementation Details
-1. The file includes a function named **cubicQ** of type *Float -> Float -> Float -> Float* that computes **Q** from **a**, **b**, and **c**. The file also includes a function named **cubicR** of type *Float -> Float -> Float -> Float -> Float* that computes **R** from **a**, **b**, **c**, and **d**. 
-2. The file includes two functions **cubicComplexS** and **cubicComplexT** of type *Float -> Float -> Complex* where *Complex* is some type of complex number whose real and imaginary parts are of type *Float*.
-3. The file includes **cubicRealSolution** of type *Float -> Float -> Float -> Float -> Float*. It produces real number solutions for any value of **Q³ + R²** using complex number arithmetic.
+1. The file includes a function named **cubicQ** of type ```Float -> Float -> Float -> Float``` that computes **Q** from **a**, **b**, and **c**. The file also includes a function named **cubicR** of type ```Float -> Float -> Float -> Float -> Float``` that computes **R** from **a**, **b**, **c**, and **d**. 
+2. The file includes two functions **cubicComplexS** and **cubicComplexT** of type ```Float -> Float -> Complex``` where ```Complex``` is some type of complex number whose real and imaginary parts are of type ```Float```.
+3. The file includes **cubicRealSolution** of type ```Float -> Float -> Float -> Float -> Float```. It produces real number solutions for any value of **Q³ + R²** using complex number arithmetic.
 
 #### Author
 Michael Balas
