@@ -1,8 +1,5 @@
--- Assignment 4 Extra Credit
--- Name: Michael Balas
--- MacID: balasm
--- Date: November 17, 2017
-
+-- Michael Balas
+-- Arbitrary Polynomial List/IO Manipulation
 
 module PolyDiff where
 import Test.QuickCheck

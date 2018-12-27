@@ -1,4 +1,5 @@
--- 3D Vector Space
+-- Michael Balas
+-- n-Dimensional Vector Space
 
 module VectorSpace where
 

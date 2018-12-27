@@ -1,7 +1,5 @@
--- Assignment 3 Extra Credit
--- Name: Michael Balas
--- MacID: balasm
--- Date: November 3, 2017
+-- Michael Balas
+-- Arbitrary Polynomial Data Types
 
 module Polynomial where
 
