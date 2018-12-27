@@ -7,6 +7,7 @@ A polynomial can be represented by the list of the coefficients in its standard 
 where *a ≠ 0* is the standard form of a nonzero polynomial *p*, then *p* can be represented by the list  <br />
 &ensp;&ensp;![equation](https://latex.codecogs.com/gif.latex?%5Ba_0%2C%20a_1%2C%20...%2C%20a_m%5D.)  <br />
 The zero polynomial can be represented by the empty list, []. Polynomials can be processed by manipulating their representations as lists. For example, two polynomials can be added by adding the corresponding components in their representations as lists. 
+
 &ensp;&ensp;We will call a list that represents a polynomial a *polynomial list*. Every list of numbers whose final value is not 0 is a polynomial list.
 ### Implementation Details
 1. The file contains the following algebraic data type definition (from *Arbitrary_Polynomials*):
