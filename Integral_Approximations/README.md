@@ -14,7 +14,7 @@ is the area of a trapezoid that approximates the area under the graph of *f* fro
 ### Implementation Details
 1. The file contains includes a function **definiteIntegral** of type
 ``` Double -> Double -> (Double->Double) -> Integer -> Double```
-such that 
+such that <br />
 &ensp;&ensp;**definiteIntegral a b g n**
 computes an approximation to the definite integral  <br />
 &ensp;&ensp;![equation](https://latex.codecogs.com/gif.latex?%5Cint_%7Ba%7D%5E%7Bb%7Df%28x%29dx)  <br />
